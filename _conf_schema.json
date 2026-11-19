@@ -1,0 +1,20 @@
+{
+  "max_attachment_mb": {
+    "description": "单个压缩包大小（MiB）",
+    "type": "int",
+    "default": 20,
+    "hint": "单个 ZIP 的下载和处理上限。"
+  },
+  "workspace_max_mb": {
+    "description": "缓存总容量（MiB）",
+    "type": "int",
+    "default": 256,
+    "hint": "原始 ZIP 和解压文件都会计入此容量。"
+  },
+  "retention_hours": {
+    "description": "保留时间（小时）",
+    "type": "int",
+    "default": 24,
+    "hint": "到期删除附件和解压文件；重载或重启也会清空 workspace。"
+  }
+}

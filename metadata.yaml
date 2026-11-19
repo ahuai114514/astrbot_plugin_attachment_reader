@@ -1,0 +1,7 @@
+name: astrbot_plugin_attachment_reader
+display_name: 压缩包阅读助手
+desc: 查看 ZIP 目录，读取压缩包内文本
+version: v1.3.1
+author: ahuai
+astrbot_version: ">=4.29,<5"
+repo: https://github.com/ahuai114514/astrbot_plugin_attachment_reader
